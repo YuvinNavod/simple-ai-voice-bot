@@ -20,3 +20,31 @@ Before you begin, ensure you have the following software installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/YuvinNavod/simple-ai-voice-bot.git
+
+2. Navigate into the project directory:
+   ```bash
+   cd ai-voice-bot
+   
+3. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use venv\Scripts\activate
+
+4. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+
+
+## How to Run the Voice Bot
+- **Connect a microphone to your computer.**
+- **Run the following command to start the bot:**
+  
+   ```bash
+   python main.py
+
+The bot will listen for your speech, recognize the keywords, and provide product recommendations based on your request.
+
+## Example Interaction
+- **You say:** "Can you recommend a good laptop?"
+- **Bot response (text and speech):** "I recommend the Dell XPS 13 for performance and portability."
+
